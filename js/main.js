@@ -1,4 +1,4 @@
-const countdown = document.querySelector("body > section > div > h1.countdown");
+const countdown = document.querySelector("body > section > div > div.countdown");
 
 // Set Launch Date To 1 Mar 2021 at 1300
 const launchDate = new Date('Mar 1, 2021 13:00:00').getTime();
@@ -31,7 +31,7 @@ const intvl = setInterval(() => {
         clearInterval(intvl);
         //Style and output text
         countdown.style.color = '#17a2b8';
-        countdown.innerHTML = 'Launched';
+        countdown.innerHTML = 'Launched!';
     }
 
 }, 1000);
