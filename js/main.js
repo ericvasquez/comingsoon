@@ -1,4 +1,4 @@
-const countdown = document.querySelector('countdown');
+const countdown = document.querySelector("body > section > div > h1.countdown");
 
 // Set Launch Date To 1 Feb 2021 at 1300
 const launchDate = new Date('Feb 1, 2021 13:00:00').getTime();
