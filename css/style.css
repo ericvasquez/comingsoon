@@ -105,7 +105,7 @@ Target Days Box */
 @media(max-height: 400px) {
 
 img {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
     h1 {
